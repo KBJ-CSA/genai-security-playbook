@@ -1,21 +1,36 @@
-# GenAI Security Playbook
+# 🛡️ LLM Security Testing
 
-A practical methodology and toolkit for testing Generative AI (GenAI) applications for prompt injection, data leakage, and misuse risks.
+**An ongoing initiative to break, test, and secure GenAI systems — turning real attack research into practical defenses.**
+
+---
+
+## 🎯 About This Repository
+This repository documents practical approaches to **LLM security testing**, including prompt injection research, RAG threat modeling, guardrail evaluation, and secure architecture patterns.
+
+It is designed as a living resource for:
+- Security engineers
+- AI builders
+- Red teamers
+- Researchers
+
+As the GenAI threat landscape evolves, new playbooks, payloads, and threat models will continue to be added.
 
 ---
 
-## 🔎 About This Repository
-
-This repository documents a structured approach to GenAI security testing based on real-world style assessments.
-
-It includes:
-
-- Prompt injection testing methodology  
-- Payload library with reusable attack patterns  
-- Anonymized case studies  
-- Testing checklists and templates  
+## 📌 Key Areas Covered
+- Prompt Injection & Jailbreak Techniques  
+- Payload Library (Real-world patterns)  
+- LLM Security Testing Checklist  
+- Security Architecture & Trust Boundaries  
+- **MAESTRO Threat Modeling for LLMs**  
+- Case Studies & Attack Path Analysis  
+- Curated Learning Resources  
 
 ---
+
+## 🚀 Goal
+Make LLM security **practical, repeatable, and engineering-driven** — not just theoretical.
+
 
 ## 🧪 Scope
 
