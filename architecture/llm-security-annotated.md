@@ -9,6 +9,21 @@ This document combines:
 
 ---
 
+| Architecture Component         | MAESTRO Category | Risk Addressed                    |
+| ------------------------------ | ---------------- | --------------------------------- |
+| API Gateway / WAF              | Resilience       | Traffic abuse, bot attacks        |
+| Authentication & Authorization | Access           | Unauthorized data access          |
+| Prompt Firewall                | Manipulation     | Prompt injection, jailbreaks      |
+| Retrieval Access Control       | Access           | Sensitive document exposure       |
+| Document Sanitization          | Supply Chain     | RAG poisoning                     |
+| Tool Permission Scoping        | Execution        | Unauthorized actions              |
+| Output Risk Filter             | Trust            | Hallucinations, misrepresentation |
+| Logging & SIEM                 | Oversight        | Undetected attacks                |
+| Rate Limiting                  | Resilience       | Prompt flooding                   |
+| Human Approval Gates           | Execution        | High-risk automation              |
+
+---
+
 ## 🛡️ Annotated Architecture Diagram
 
 ```mermaid
